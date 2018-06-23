@@ -24,6 +24,7 @@ use pocketmine\event\player\PlayerMoveEvent;
 use pocketmine\block\Block;
 use pocketmine\item\Item;
 use pocketmine\item\enchantment\Enchantment;
+use pocketmine\item\enchantment\EnchantmentInstance;
 //BlockEvents
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\block\BlockPlaceEvent;
