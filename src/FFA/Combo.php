@@ -85,14 +85,15 @@ class Combo extends PluginBase implements Listener {
         $chest = Item::get(311, 0, 1);
         $hose = Item::get(312, 0, 1);
         $boots = Item::get(313, 0, 1);
-        /*$e1 = Enchantment::getEnchantment(0);
+        $e1 = Enchantment::getEnchantment(0);
         $e2 = Enchantment::getEnchantment(1);
         $helm->addEnchantment($e2);
         $chest->addEnchantment($e1);
         $chest->addEnchantment($e2);
         $hose->addEnchantment($e2);
-        $boots->addEnchantment($e2);*/
+        $boots->addEnchantment($e2);
         $player->getInventory()->addItem(Item::get(320, 0, 64));
+        $player->getInventory()->addItem(Item::get(276, 1, 1));
         $player->getArmorInventory()->setHelmet($helm);
         $player->getArmorInventory()->setChestplate($chest);
         $player->getArmorInventory()->setLeggings($hose);
@@ -189,14 +190,15 @@ class Combo extends PluginBase implements Listener {
         $chest = Item::get(311, 0, 1);
         $hose = Item::get(312, 0, 1);
         $boots = Item::get(313, 0, 1);
-        /*$e1 = Enchantment::getEnchantment(0);
+        $e1 = Enchantment::getEnchantment(0);
         $e2 = Enchantment::getEnchantment(1);
         $helm->addEnchantment($e2);
         $chest->addEnchantment($e1);
         $chest->addEnchantment($e2);
         $hose->addEnchantment($e2);
-        $boots->addEnchantment($e2);*/
+        $boots->addEnchantment($e2);
         $player->getInventory()->addItem(Item::get(320, 0, 64));
+        $player->getInventory()->addItem(Item::get(276, 1, 64));
         $player->getArmorInventory()->setHelmet($helm);
         $player->getArmorInventory()->setChestplate($chest);
         $player->getArmorInventory()->setLeggings($hose);
